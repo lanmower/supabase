@@ -76,7 +76,7 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       - name: ls
-        run: ls /supabase/export
+        run: ls /supabase
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
