@@ -76,7 +76,7 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       - name: ls
-        run: find . -maxdepth 1 -type d | cut -c 3-
+        run: find . -maxdepth 10 -type d | cut -c 3-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
